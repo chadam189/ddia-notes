@@ -38,7 +38,7 @@
 * "Tail Latency Amplification" => aka "weakest link in the chain" - if 5 parallel requests have to be made, the overall response time will be based on the slowest (not fastest, or average) response
 * "Extensibility" => make it easy for future engineers to expand/modify this system to service new user requirements by focusing on extensible code and design choices
  
-#### Reliability
+### Reliability
 
 "Works CORRECTLY (correct results at desired performance level) despite ADVERSITY (errors caused by hardware/software/humans)"
 
@@ -51,7 +51,7 @@ automated processes for both deployments and rollbacks
 METRICS! track performance metrics, error rates, logs all (relevant) requests and DB queries into an easily queryable storage search index (Elasticache)
 
 
-#### Scalability
+### Scalability
 
 "As a system GROWS (more data, traffic, or complexity), there are reasonable ways to handle the growth to continue being RELIABLE"
 
@@ -107,7 +107,7 @@ Scaling OUT = better for stateless systems (web servers)
 
 These are going to be designed WILDLY different from each other
 
-#### Maintainability
+### Maintainability
 
 "Future engineers can PRODUCTIVELY support the system, to maintain current behaviour and adapt it for new use cases"
 
