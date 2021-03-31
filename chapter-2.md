@@ -9,9 +9,9 @@
 
 1. Three most important questions to ask when choosing a database:
 
-What format/shape the data is in?
-What is the access pattern we're optimizing for? ("reads of a user's twitter timeline", "writing logs", "reading/writing session data", "describing a social network connections")
-Will I need to run queries against this data? (Kinda a part of 2 but super important so worth re-iterating)
+* What format/shape the data is in?
+* What is the access pattern we're optimizing for? ("reads of a user's twitter timeline", "writing logs", "reading/writing session data", "describing the connections of a user in a social network")
+* Will I need to run joined queries against this data? (Kinda a part of 2 but super important so worth re-iterating)
 
 1. Historically, data was stored in tree format (heirarchical model). We quickly realized it's hard as hell to manage many-to-many relationships in that model, and to query stuff. So we invented the relational model to solve that problem.
 
@@ -25,10 +25,6 @@ Will I need to run queries against this data? (Kinda a part of 2 but super impor
 
 * relation => what a table is called in an RDBMS (SQL) database
 * tuple => what an unordered row is called in the table of an RDBMS (SQL) database
-* "key-value store" => 
-* "column store" =>
-* "document store" =>
-* "graph store" => 
 
 ### Phrases I Should Use
 
@@ -45,9 +41,9 @@ Will I need to run queries against this data? (Kinda a part of 2 but super impor
 * "schema-on-write" => define columns, data format, relationships between tables BEFORE we write to the DB, validate data, and only then can we upload. but queries are quick!!
 * "document reference" =>
 * "data locality" => taking advantage of "data locality" by using a document store DB when we want to optimize for pulling everything about a particular user (instead of having to do a bunch of index lookups across multiple tables, which is what we'd have to do for this same data stored in a traditional relational schema)
-* "imperative" => 
-* "declartive" =>
-* "query optimizer" =>
+* "imperative" => you give the computer instructions and it comes up with the result
+* "declartive" => you give the computer a result and it comes up with the instructions
+* "query optimizer" => 
 
 
 ### NoSQL Data Stores
@@ -56,10 +52,9 @@ Will I need to run queries against this data? (Kinda a part of 2 but super impor
 
 "Keys" are the unique identifiers of each entry
 
-Fast reads, fast writes
-Does NOT know anything about the value stored in it, very little ability to query or do joins
-
-Best used for caches
+* Fast reads, fast writes
+* Does NOT know anything about the value stored in it, therefore very little ability to query or do joins
+* Best used for caches
 
 1. Document stores (MongoDB)
 

@@ -19,3 +19,7 @@
 
 1. Data locality - how is memory pulled from disk? Is it in one chunk? Does DL happen in HDD vs SSD?
 
+1. What is a query planner (vs query optimizer)?
+
+1. 
+
