@@ -83,7 +83,9 @@ SOR: Receive Data => Store Data => Read Data (Analyze/Query) => Apply Schema
 
 ### Links
 
-https://seldo.com/posts/databases_how_they_work_and_a_brief_history
-https://www.javatpoint.com/dbms-reduction-of-er-diagram-into-table
-https://luminousmen.com/post/schema-on-read-vs-schema-on-write
-https://www.quora.com/What-are-the-main-differences-between-the-four-types-of-NoSql-databases-KeyValue-Store-Column-Oriented-Store-Document-Oriented-Graph-Database
+- https://seldo.com/posts/databases_how_they_work_and_a_brief_history
+   - https://twitter.com/simonleggsays/status/1196480645234597890
+- https://seldo.com/posts/in_defence_of_sql
+- https://www.javatpoint.com/dbms-reduction-of-er-diagram-into-table
+- https://luminousmen.com/post/schema-on-read-vs-schema-on-write
+- https://www.quora.com/What-are-the-main-differences-between-the-four-types-of-NoSql-databases-KeyValue-Store-Column-Oriented-Store-Document-Oriented-Graph-Database

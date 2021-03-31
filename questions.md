@@ -11,6 +11,7 @@
 1. run "EXPLAIN ANALYZE" for PostgreSQL queries
 
 1. Learn what a materialized view is (vs a view - is that same as stored procedure?)
+    - https://www.compose.com/articles/its-a-view-its-a-table-no-its-a-materialized-view/
 
 1. What is the "STATSD" table in PG?
 
