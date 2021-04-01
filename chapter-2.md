@@ -36,7 +36,6 @@
 * "many-to-many" => students to classes, classes to students
 * "normalized" => data is only stored in a single place in the DB
 * "denormalized" => data is copied when it COULD be stored in just one place
-
 * "schema-on-read" => store data as soon as we recive it, and worry about validation/analysis later
 * "schema-on-write" => define columns, data format, relationships between tables BEFORE we write to the DB, validate data, and only then can we upload. but queries are quick!!
 * "document reference" =>
