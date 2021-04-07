@@ -52,3 +52,4 @@
 ### Links
 
 - https://use-the-index-luke.com/sql/where-clause/the-equals-operator/concatenated-keys
+- Bloom Filter explanation (Curtis): https://www.youtube.com/watch?v=-SuTGoFYjZs
