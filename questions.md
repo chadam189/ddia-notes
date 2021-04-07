@@ -21,5 +21,6 @@
 
 1. What is a query planner (vs query optimizer)?
 
-1. 
+1. Difference in DB storage engines?
+    - https://stackoverflow.com/questions/3818759/what-is-innodb-and-myisam-in-mysql
 
