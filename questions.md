@@ -21,5 +21,8 @@
 
 1. What is a query planner (vs query optimizer)?
 
-1. 
+#### Chapter 3
 
+1. Do most SQL DB's automatically index primary keys? What about foreign keys - when you declare a foreign key they'll 1) index it and 2) verify it's a valid value
+
+1. Are time-series DB in column-stores? What makes them more geared towards time-series querying over PostgreSQL? Is a time-series DB better, period? 
