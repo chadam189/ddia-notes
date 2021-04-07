@@ -27,6 +27,14 @@
 * "covering index" =>
 * "composite index" => aka "Multi-column index" or "concatenated index"
 * "fuzzy indexes" =>
+* "OLAP/OLTP" => 
+* "data warehouse" => relational database designed for analytics (as opposed to transactional work)
+* "ETL" => Extract/Transfer/Load
+* "star schema" =>
+* "snowflake schema" =>
+* "bitmap encoding" =>
+* "heap file" =>
+
 
 ### Data Strcutures inside Databases
 
@@ -47,7 +55,9 @@
 
 ### Transaction Processing vs Analytics
 
-1.
+1. OLAP vs OLTP
+1. Data Warehousing
+   - ETL
 
 ### Links
 
