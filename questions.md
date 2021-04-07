@@ -26,3 +26,11 @@
 1. Do most SQL DB's automatically index primary keys? What about foreign keys - when you declare a foreign key they'll 1) index it and 2) verify it's a valid value
 
 1. Are time-series DB in column-stores? What makes them more geared towards time-series querying over PostgreSQL? Is a time-series DB better, period? 
+
+
+
+
+#### Group Discussion
+
+Jonahthan - indexing on boolean columns (aka cols with only a handful of distinct vals)
+Beth - researching how data is pulled from disk on HDD vs SSD - is it by a single size of block of memory (always a 4kb chunk)? what takes the most time, is it finding the block, or moving the needle? or is it seeking the exact address? or is it copying the data to memory once it's located?
